@@ -1,0 +1,21 @@
+Package: C3PO
+Type: Package
+Title: C implementation of the R package R2D2
+Version: 1.0.0
+Authors@R: c(person("Mathieu", "Vrac", email = "mathieu.vrac@lsce.ipsl.fr", role = c("aut")),
+             person("Soulivanh", "Thao", email = "soulivanh.thao@lsce.ipsl.fr", role = c("ctr", "cre")))
+Description: This package provides the c3po function 
+  which uses the R C interface to implement the
+  multivariate bias-correction method, R2D2, presented in Vrac(2018)).
+  Vrac, M.: Multivariate bias adjustment of high-dimensional climate simulations:
+  the Rank Resampling for Distributions and Dependences (R2D2) bias correction,
+  Hydrol. Earth Syst. Sci., 22, 3175–3196,
+  https://doi.org/10.5194/hess-22-3175-2018, 2018.
+Depends: R (>= 3.0.0)
+Encoding: UTF-8
+NeedsCompilation: yes
+Author: Mathieu Vrac [aut],
+  Soulivanh Thao [cre, ctb] (R and C port and updates)
+Maintainer: Soulivanh Thao <sthao@lsce.ipsl.fr>
+Date: 2020-06-17
+License: CeCILL

@@ -1,0 +1,4 @@
+useDynLib(C3PO, .registration = TRUE, .fixes = "C_")
+
+export(r2d2)
+
